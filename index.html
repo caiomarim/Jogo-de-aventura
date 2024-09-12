@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <title>Encontrando um carro abandonado</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Forza-Horizon-Logo-History.jpg" alt="">
+            <p>Um dia desse jogando um jogo recebi uma missão de encontrar um carro abandonado no meio de uma floresta.
+                Com isso o jogo sugeriu-me as seguintes opções:</p>
+            <button class="btn-proximo" data-proximo="1">Seguir a rodovia sentido a floresta</button>
+            <button class="btn-proximo" data-proximo="2">Seguir no sentido contrário</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/floresta.jpg" alt="">
+            <p>Você acaba de começar sua busca na floresta</p>
+            <button class="btn-proximo" data-proximo="3">Entrar floresta a dentro</button>
+            <button class="btn-proximo" data-proximo="4">Continuar na Br e dar a volta na floresta</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Voce acaba de chegar em uma encruzilhada</p>
+            <button class="btn-proximo" data-proximo="5">Seguir a direita para as piramedes</button>
+            <button class="btn-proximo" data-proximo="6">seguir a esquerda ao aeroporto</button>
+        </div>
+        <div class="passo" id="passo-3"> 
+            <img src="img/celeiro.jpg" alt="" srcset="">
+            <p>Ao se aproximar, acaba de aparecer uma dica dizendo que o carro esta em um celeiro abandonado</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em frente</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/riacho.jpg" alt="">
+            <p>Voce chegou em um riacho e proximo dele tinha um celeiro</p>
+            <button class="btn-proximo" data-proximo="8">Seguir ate o celeiro</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/download (1).jpg" alt="">
+            <p>Que pena voce nao encontrou</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/download (1).jpg" alt="">
+            <p>Que pena voce nao encontrou</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/fusca.jpg" alt="">
+            <p>Muito bem! você acaba de encontrar o carro abandonado. Agora Voce pode cunstomizar ele do seu jeito. </p>
+            <button class="btn-proximo" data-proximo="9">Mensagem</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/fusca.jpg" alt="">
+            <p>E aqui esta, Parabens! voce acaba de encontrar o carro abandonado. Agora Voce pode cunstomizar ele do seu jeito. </p>
+            <button class="btn-proximo" data-proximo="9">Mensagem</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/obrigado.jpg" alt="">
+            <p>Muito obrigado por ter chegado ate aqui. Te espero no proximo projeto. VALEU!</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
